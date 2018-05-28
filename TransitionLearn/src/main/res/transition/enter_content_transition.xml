@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <targets >
+        <target android:excludeId="@android:id/statusBarBackground"/>  <!--状态栏-->
+        <target android:excludeId="@android:id/navigationBarBackground"/> <!--导航栏-->
+    </targets>
+
+<!--    <fade android:duration="500">
+        <targets>
+            <target android:targetId="@android:id/statusBarBackground"/>
+        </targets>
+    </fade>-->
+
+    <slide android:slideEdge="left"  android:startDelay="500">
+        <targets >
+            <target android:targetId="@id/tv_show"/>
+        </targets>
+    </slide>
+
+    <slide android:startDelay="700">
+        <targets >
+            <target android:targetId="@id/iv_left"/>
+        </targets>
+    </slide>
+
+    <slide android:startDelay="900">
+        <targets >
+            <target android:targetId="@id/iv_right"/>
+        </targets>
+    </slide>
+
+</transitionSet>

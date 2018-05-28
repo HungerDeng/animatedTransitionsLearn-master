@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gdut.dkmfromcg.transitionlearn.MainActivity">
+
+
+    <Button
+        android:id="@+id/scene"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Scene_Demo" />
+
+    <Button
+        android:id="@+id/beginDelayedTransition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="延迟动画Begin_Delayed" />
+
+    <Button
+        android:id="@+id/contentTranHoldView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="整个界面的Content_Transition" />
+
+    <Button
+        android:id="@+id/contentTransition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="部分View的Content_Transition" />
+
+
+    <Button
+        android:id="@+id/shareBetweenAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Activity之间共享元素" />
+
+    <Button
+        android:id="@+id/shareBetweenFrg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Fragment之间共享元素" />
+
+    <Button
+        android:id="@+id/shareToActUnder21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Android 5.0 以下共享转场" />
+
+
+    <LinearLayout
+        android:id="@+id/shareContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivShareToAct"
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bangtang"/>
+
+        <TextView
+            android:id="@+id/tvShareToAct"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Hello World !!!"/>
+    </LinearLayout>
+
+
+</LinearLayout>

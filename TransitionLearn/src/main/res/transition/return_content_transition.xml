@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="800">
+
+    <slide android:slideEdge="top">
+        <targets>
+            <target android:targetId="@id/relay_flag" />
+            <!--<target  android:targetId="@id/fab"/>
+            <target android:targetId="@id/icon_gg"/>
+            <target android:targetId="@id/image_bg"/>-->
+
+        </targets>
+    </slide>
+
+    <slide android:slideEdge="bottom">
+        <targets>
+            <target android:targetId="@id/bottom_container" />
+            <target android:targetId="@id/tv_show"/>
+            <target android:targetId="@id/iv_left"/>
+            <target android:targetId="@id/iv_right"/>
+        </targets>
+    </slide>
+
+
+        <fade>
+            <targets >
+                <target android:targetId="@android:id/statusBarBackground"/>
+            </targets>
+        </fade>
+</transitionSet>

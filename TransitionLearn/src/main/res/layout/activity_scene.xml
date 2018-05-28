@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gdut.dkmfromcg.transitionlearn.SceneActivity">
+
+
+    <Button
+        android:id="@+id/changeBounds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="change_Bounds"/>
+
+    <Button
+        android:id="@+id/changeClipBounds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="change_Clip_Bounds"/>
+
+    <Button
+        android:id="@+id/changeImageTransform"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="change_Image_Transform"/>
+
+
+    <Button
+        android:id="@+id/changeScroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="change_Scroll"/>
+
+    <Button
+        android:id="@+id/changeTransform"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="change_Transform"/>
+
+    <Button
+        android:id="@+id/fadeOrSlide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Fade_Or_Slide"/>
+
+</LinearLayout>

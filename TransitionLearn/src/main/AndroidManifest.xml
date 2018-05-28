@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gdut.dkmfromcg.transitionlearn">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SceneActivity"
+            android:label="SceneActivity" />
+        <activity
+            android:name=".scenes.ChangeBoundsActivity"
+            android:label="ChangeBounds" />
+        <activity
+            android:name=".scenes.ChangeClipBoundsActivity"
+            android:label="ChangeClipBounds" />
+        <activity
+            android:name=".scenes.ChangeImageTransformActivity"
+            android:label="ChangeImageTransform" />
+        <activity
+            android:name=".scenes.ChangeScrollActivity"
+            android:label="ChangeScroll" />
+        <activity
+            android:name=".scenes.ChangeTransformActivity"
+            android:label="ChangeTransform" />
+        <activity
+            android:name=".scenes.FadeOrSlideActivity"
+            android:label="FadeOrSlide" />
+        <!-- BeginDelayed 延时 -->
+        <activity
+            android:name=".BeginDelayedActivity"
+            android:label="BeginDelayedActivity" />
+        <activity
+            android:name=".ContentTransitionHoldViewActivity"
+            android:label="ContentTransitionHoldView"
+            android:theme="@style/AppTheme.ContentTransitionHoldView" />
+        <activity
+            android:name=".ContentTransitionElementsActivity"
+            android:label="ContentTransitionElements"
+            android:theme="@style/AppTheme.ContentTransition" />
+        <activity
+            android:name=".ShareElementsToActActivity"
+            android:label="ShareElementsToAct"
+            android:theme="@style/AppTheme.ShareElementsToAct" />
+        <activity
+            android:name=".ShareElementsToFrgActivity"
+            android:label="ShareElementsToFrg" />
+        <activity android:name=".ShareElementsUnder21Activity"></activity>
+    </application>
+
+</manifest>
