@@ -13,13 +13,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="change_Bounds"/>
+        android:text="change_Bounds"
+        android:textAllCaps="false"/>
 
     <Button
         android:id="@+id/changeClipBounds"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
+        android:textAllCaps="false"
         android:text="change_Clip_Bounds"/>
 
     <Button
@@ -27,6 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
+        android:textAllCaps="false"
         android:text="change_Image_Transform"/>
 
 
@@ -35,6 +38,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
+        android:textAllCaps="false"
         android:text="change_Scroll"/>
 
     <Button
@@ -42,6 +46,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
+        android:textAllCaps="false"
         android:text="change_Transform"/>
 
     <Button
@@ -49,6 +54,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
+        android:textAllCaps="false"
         android:text="Fade_Or_Slide"/>
 
 </LinearLayout>

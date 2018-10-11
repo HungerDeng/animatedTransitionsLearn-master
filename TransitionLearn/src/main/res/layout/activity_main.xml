@@ -13,6 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
+        android:textAllCaps="false"
         android:text="Scene_Demo" />
 
     <Button
@@ -20,6 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
+        android:textAllCaps="false"
         android:text="延迟动画Begin_Delayed" />
 
     <Button
@@ -27,6 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
+        android:textAllCaps="false"
         android:text="整个界面的Content_Transition" />
 
     <Button
@@ -34,6 +37,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
+        android:textAllCaps="false"
         android:text="部分View的Content_Transition" />
 
 
@@ -42,6 +46,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
+        android:textAllCaps="false"
         android:text="Activity之间共享元素" />
 
     <Button
@@ -49,6 +54,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
+        android:textAllCaps="false"
         android:text="Fragment之间共享元素" />
 
     <Button
@@ -56,6 +62,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
+        android:textAllCaps="false"
         android:text="Android 5.0 以下共享转场" />
 
 

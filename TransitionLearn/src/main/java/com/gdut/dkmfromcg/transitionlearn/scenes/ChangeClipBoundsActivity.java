@@ -28,7 +28,7 @@ public class ChangeClipBoundsActivity extends BaseScenesActivity {
                 clickChange();
             }
         });
-        ViewGroup rootView=findViewById(R.id.rootView);
+        ViewGroup sceneRoot=findViewById(R.id.rootView);
 
 
         View view1= LayoutInflater.from(this).inflate(R.layout.changeclipbounds_scene,null);
@@ -40,8 +40,8 @@ public class ChangeClipBoundsActivity extends BaseScenesActivity {
         iv1.setClipBounds(new Rect(0,0,100,100));
         iv2.setClipBounds(new Rect(100,100,200,200));
 
-        scene1=new Scene(rootView,view1);
-        scene2=new Scene(rootView,view2);
+        scene1=new Scene(sceneRoot,view1);
+        scene2=new Scene(sceneRoot,view2);
         TransitionManager.go(scene1);
     }
 
